@@ -1,20 +1,25 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints all numbers of base 16.
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
-int z;
+	int i = '0';
 
-for (z = 48; z <= 57; z++)
-{
-putchar(z);
+	while (i <= '9')
+	{
+		putchar(i);
+		i++;
+	}
+	i = 'a';
+	while (i <= 'f')
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+
 }
-for (z = 97; z <= 102;z++)
-{
-putchar(z)
-}
-putchar('\n');
-retu
