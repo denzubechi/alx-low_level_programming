@@ -1,1 +1,1 @@
-Pointers and array strings tasks
+Pointers
