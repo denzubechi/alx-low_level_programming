@@ -23,7 +23,6 @@ int find_len(char *str)
 
 	return (len);
 }
-
 /**
  * create_xarray - Creates an array of chars and initializes it with
  *                 the character 'x'. Adds a terminating null byte.
@@ -135,7 +134,6 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	if (tens)
 		*prod = (tens % 10) + '0';
 }
-
 /**
  * add_nums - Adds the numbers stored in two strings.
  * @final_prod: The buffer storing the running final product.
